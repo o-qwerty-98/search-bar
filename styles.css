@@ -1,0 +1,62 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200&display=swap');
+
+/* Basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: lightskyblue;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Search bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 1rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    border-radius: 5px;
+    -webkit-box-shadow: 4px 13px 50px 5px #000000; 
+    box-shadow: 4px 13px 50px 5px #000000;
+}
+
+.search-bar i {
+    font-size: 1.7rem;
+    position: relative;
+    right: 5rem;
+}
+
+.search-bar input {
+    border: none;
+    font-size: 1.2rem;
+    position: relative;
+    right: 4rem;
+}
+
+.search-bar button {
+    background-color: lightpink;
+    border: none;
+    padding: 13px;
+    border-radius: 4px;
+    position: relative;
+    left: 4rem;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    font-size: 1rem;
+}
+
+.search-bar button:hover {
+    position: relative;
+    background-color: lightskyblue;
+}
